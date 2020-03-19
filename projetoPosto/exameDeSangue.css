@@ -1,0 +1,167 @@
+body{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#indice{
+
+    color: black;
+    font-size: x-large;
+}
+.pesquisa{
+
+    border-bottom: solid;
+    border-width: 0.5px;
+    border-color: #E9E9E9;    
+}
+.pesquisa input{
+
+    height: 35px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: solid;
+    border-width: 1px;
+    border-color: #E9E9E9;
+    border-radius: 5px;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+}
+::-moz-input-placeholder{
+    text-align: center;
+}
+/*=========================*/
+.btnRadio{
+
+    margin-left: 330px;
+    margin-top: 35px;
+    line-height: 50px;
+    position: absolute;
+    font-style: italic;
+}
+.formulario{
+
+    position: absolute;
+    margin-top: 15px;
+    left: 50%;
+    transform: translate(-20%);
+}
+.formulario p {
+
+    font-style: italic;
+    margin-top: 30px;
+}
+.formulario input[type=text]{
+
+    border: none;
+    border-bottom: 1px solid #e9e9e9;
+    width: 450px;
+    line-height: 48px;
+    font-style: italic;
+}
+.formulario input[type=radio]{
+
+    margin-top: 12px;
+}
+/*========================*/
+/*PARTE DOS BOTÕES*/
+.btnSalvar{
+
+    margin-right: 450px;
+    background-color:white;
+    color: gray;
+}
+.btnCancelar{
+
+    
+    margin-right: 40px;
+    background-color:white;
+    color: gray;
+}
+
+.btnSC{/*MEXE COM OS BOTÕED SALVAR E CANCELAR AO MESMO TEMPO*/
+    
+    margin-top: 390px;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    float: right;
+    font-style: italic;
+
+}
+.btnSC:hover{
+
+    color: black;
+    font-size: 30px;
+}
+
+/*=========================*/
+/*BOTÕES DA LATERAL DIREITA*/
+.btnListar{
+
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    margin-top: 40px;
+    float: right;
+    background-color:white;
+    color: gray;
+}
+.btnListar:hover{
+
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+}
+.btnEditar {
+
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    margin-top: 40px;
+    float: right;
+    color: #FFFFFF;
+    background-color: white;
+    color: gray;
+}
+.btnEditar:hover{
+
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+}
+.btnImprimir{
+
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    margin-top: 40px;
+    float: right;
+    color: #FFFFFF;
+    background-color: white;
+    color: gray;
+}
+.btnImprimir:hover{
+
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+}
+/*FIM DA PARTE DOA BOTÕES*/
+.crudLateral{
+
+    position: absolute;
+    border-left: solid;
+    border-color: #E9E9E9;
+    border-width: 0.5px;
+    right: 20px;
+    top: 200px;
+    height: 350px;
+    padding: 5px 24px;
+    font-style: italic;
+}
